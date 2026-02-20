@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supporter Bewerbung</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #2c2f33;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: #23272a;
+    padding: 30px;
+    border-radius: 10px;
+    width: 750px;
+}
+
+h1 {
+    text-align: center;
+    color: #5865f2;
+}
+
+.question {
+    margin-bottom: 18px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #5865f2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4752c4;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Supporter Bewerbung</h1>
+
+<form id="quiz">
+
+<!-- 1 -->
+<div class="question">
+<p>1. Ein User beleidigt einen anderen. Was tust du?</p>
+<input type="radio" name="q1" value="10"> Verwarnen & beruhigen<br>
+<input type="radio" name="q1" value="5"> Ignorieren<br>
+<input type="radio" name="q1" value="0"> Mitmachen<br>
+</div>
+
+<!-- 2 -->
+<div class="question">
+<p>2. Ein neuer User kennt die Regeln nicht.</p>
+<input type="radio" name="q2" value="10"> Freundlich erklären<br>
+<input type="radio" name="q2" value="5"> Nachricht löschen<br>
+<input type="radio" name="q2" value="0"> Direkt bannen<br>
+</div>
+
+<!-- 3 -->
+<div class="question">
+<p>3. Wie reagierst du auf Kritik?</p>
+<input type="radio" name="q3" value="10"> Annehmen & verbessern<br>
+<input type="radio" name="q3" value="5"> Diskutieren<br>
+<input type="radio" name="q3" value="0"> Ignorieren<br>
+</div>
+
+<!-- 4 -->
+<div class="question">
+<p>4. Ein Freund verstößt gegen Regeln.</p>
+<input type="radio" name="q4" value="10"> Gleich behandeln wie alle<br>
+<input type="radio" name="q4" value="5"> Milder reagieren<br>
+<input type="radio" name="q4" value="0"> Ignorieren<br>
+</div>
+
+<!-- 5 -->
+<div class="question">
+<p>5. Ein User spammt dauerhaft.</p>
+<input type="radio" name="q5" value="10"> Verwarnen & Timeout<br>
+<input type="radio" name="q5" value="5"> Nur löschen<br>
+<input type="radio" name="q5" value="0"> Ignorieren<br>
+</div>
+
+<!-- 6 -->
+<div class="question">
+<p>6. Wie wichtig sind Regeln?</p>
+<input type="radio" name="q6" value="10"> Sehr wichtig<br>
+<input type="radio" name="q6" value="5"> Mittel<br>
+<input type="radio" name="q6" value="0"> Unwichtig<br>
+</div>
+
+<!-- 7 -->
+<div class="question">
+<p>7. Du machst einen Fehler.</p>
+<input type="radio" name="q7" value="10"> Zugeben & korrigieren<br>
+<input type="radio" name="q7" value="5"> Still verbessern<br>
+<input type="radio" name="q7" value="0"> Schuld abwälzen<br>
+</div>
+
+<!-- 8 -->
+<div class="question">
+<p>8. Ein Streit eskaliert.</p>
+<input type="radio" name="q8" value="10"> Eingreifen & beruhigen<br>
+<input type="radio" name="q8" value="5"> Verwarnung schreiben<br>
+<input type="radio" name="q8" value="0"> Ignorieren<br>
+</div>
+
+<!-- 9 -->
+<div class="question">
+<p>9. Wie oft solltest du aktiv sein?</p>
+<input type="radio" name="q9" value="10"> Regelmäßig & zuverlässig<br>
+<input type="radio" name="q9" value="5"> Ab und zu<br>
+<input type="radio" name="q9" value="0"> Selten<br>
+</div>
+
+<!-- 10 -->
+<div class="question">
+<p>10. Warum willst du Supporter werden?</p>
+<input type="radio" name="q10" value="10"> Community helfen<br>
+<input type="radio" name="q10" value="5"> Erfahrung sammeln<br>
+<input type="radio" name="q10" value="0"> Macht haben<br>
+</div>
+
+<!-- 11 -->
+<div class="question">
+<p>11. Ein User provoziert dich.</p>
+<input type="radio" name="q11" value="10"> Ruhig bleiben<br>
+<input type="radio" name="q11" value="5"> Diskutieren<br>
+<input type="radio" name="q11" value="0"> Zurück provozieren<br>
+</div>
+
+<!-- 12 -->
+<div class="question">
+<p>12. Teamarbeit ist für dich?</p>
+<input type="radio" name="q12" value="10"> Sehr wichtig<br>
+<input type="radio" name="q12" value="5"> Egal<br>
+<input type="radio" name="q12" value="0"> Unwichtig<br>
+</div>
+
+<!-- 13 -->
+<div class="question">
+<p>13. Ein User meldet ein Problem.</p>
+<input type="radio" name="q13" value="10"> Schnell helfen<br>
+<input type="radio" name="q13" value="5"> Später reagieren<br>
+<input type="radio" name="q13" value="0"> Ignorieren<br>
+</div>
+
+<!-- 14 -->
+<div class="question">
+<p>14. Du bist länger inaktiv.</p>
+<input type="radio" name="q14" value="10"> Bescheid geben<br>
+<input type="radio" name="q14" value="5"> Nichts sagen<br>
+<input type="radio" name="q14" value="0"> Einfach weg bleiben<br>
+</div>
+
+<!-- 15 -->
+<div class="question">
+<p>15. Was zeichnet einen guten Supporter aus?</p>
+<input type="radio" name="q15" value="10"> Neutral & hilfsbereit<br>
+<input type="radio" name="q15" value="5"> Streng<br>
+<input type="radio" name="q15" value="0"> Dominant<br>
+</div>
+
+<button type="button" onclick="auswerten()">Bewerbung Auswerten</button>
+
+</form>
+
+<div class="result" id="result"></div>
+</div>
+
+<script>
+function auswerten() {
+    let punkte = 0;
+    let form = document.getElementById("quiz");
+
+    for (let i = 1; i <= 15; i++) {
+        let antwort = form["q" + i].value;
+        if (!antwort) {
+            alert("Bitte alle 15 Fragen beantworten!");
+            return;
+        }
+        punkte += parseInt(antwort);
+    }
+
+    let maxPunkte = 150;
+    let bestandenGrenze = 110;
+
+    let ergebnisText = "Du hast " + punkte + " von " + maxPunkte + " Punkten erreicht.<br>";
+
+    if (punkte >= bestandenGrenze) {
+        ergebnisText += "🏆 Bestanden! Willkommen im Support-Team.";
+    } else {
+        ergebnisText += "❌ Nicht bestanden. Bitte versuche es erneut.";
+    }
+
+    document.getElementById("result").innerHTML = ergebnisText;
+}
+</script>
+
+</body>
+</html>
